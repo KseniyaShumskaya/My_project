@@ -1,0 +1,25 @@
+@import "main.css";
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    background-image: url(../img/s1200.jpeg);
+}
+.margin-50{
+    margin-top: 50px;
+}
+
+.price{
+    font-size: 20pt;
+}
+.price span{
+    font-size: 25pt;
+}
+
+
